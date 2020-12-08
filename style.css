@@ -1,0 +1,107 @@
+/* navbar */
+.navbar-brand {
+    font-family: oswald;
+    font-size: 32px;
+}
+
+/* jumbroton */
+.jumbotron {
+    background-image: url(jumbotron.jpg);
+    background-size: cover;
+    height: 600px;
+    margin-top: -75px;
+}
+
+/* info panel*/
+.info-panel {
+    box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+    border-radius: 12px;
+    margin-top: -120px;
+    background-color: white;
+    padding: 30px;
+}
+
+.info-panel img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.info-panel h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/* working space*/
+.workingspace {
+    margin-top: 120px;
+    text-align: center ;
+}
+
+.workingspace p {
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 200px;
+}
+
+
+/* gabung */
+.gabung {
+    margin-top: 120px;
+
+}
+.gabung h5{
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.workingspace img{
+    width: 300px;
+    height: 300px;
+    margin-block: 25px;
+}
+
+
+/* utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.7)
+
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    
+    .nav-link:hover::after{
+        content: "";
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .gabung h5{
+        font-size: 32px;
+    }
+    .workingspace img{
+        width: 500px;
+        height: 500px;
+        margin-block: 50px;
+    }    
+}
